@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_imknowme_Dabetatestfordadevopstool_1700609320094-push-trigger-input-set
+  identifier: Build_imknowme_Dabetatestfordadevopstool_1700609320094pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_imknowme_Dabetatestfordadevopstool_1700609320094
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

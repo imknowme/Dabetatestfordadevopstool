@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_imknowme_Dabetatestfordadevopstool_1700609320094-pr-trigger-input-set
+  identifier: Build_imknowme_Dabetatestfordadevopstool_1700609320094prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_imknowme_Dabetatestfordadevopstool_1700609320094
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
